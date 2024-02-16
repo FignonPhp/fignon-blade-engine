@@ -1,0 +1,52 @@
+{
+    "name": "fignon/fignon-blade-engine",
+    "description": "The Fignon blade Engine is a simple class which serve as bridge between the Laravel blade template engine and Fignon Framework",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fignon\\Extra\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Dah-kenangnon",
+            "email": "dah-kenangnon@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/FignonPhp/fignon-blade-engine",
+    "support": {
+        "issues": "https://github.com/FignonPhp/fignon-blade-engine/issues",
+        "source": "https://github.com/FignonPhp/fignon-blade-engine",
+        "docs": "https://github.com/FignonPhp/fignon-blade-engine/README.md"
+    },
+    "keywords": [
+        "php",
+        "tunnel",
+        "middleware",
+        "chain",
+        "runner",
+        "http",
+        "request",
+        "response",
+        "website",
+        "rest",
+        "api",
+        "restful",
+        "rest-api",
+        "php-framework",
+        "php-middleware"
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "fignon/fignon-view-engine": "^0.0.1",
+        "jenssegers/blade": "^2.0"
+    }
+}
